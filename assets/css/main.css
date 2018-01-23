@@ -313,6 +313,10 @@
 		margin-left: 8.33333%;
 	}
 
+  .emulator iframe:last-of-type {
+    display: none;
+  }
+
 	@media screen and (max-width: 1680px) {
 
 		.row > * {
@@ -3972,6 +3976,16 @@
 
       .emulator {
         margin-right: 0 !important;
+      }
+
+      .emulator iframe:first-of-type {
+        display: none;
+      }
+
+      .emulator iframe:last-of-type {
+        display: initial;
+        height: 651px;
+        width: 315px;
       }
 
       .icons.labeled li {
